@@ -12,5 +12,12 @@
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
 
-
+@Marco1908 ➜ /workspaces/lezione-bash-04-marco-evangelista/ambiente (main) $ grep -r "*.jpg*" 
+@Marco1908 ➜ /workspaces/lezione-bash-04-marco-evangelista/ambiente (main) $ find progetti/ -type d 
+progetti/
+progetti/app
+progetti/app/src
+progetti/webapp
+progetti/webapp/css
+progetti/webapp/src
 
