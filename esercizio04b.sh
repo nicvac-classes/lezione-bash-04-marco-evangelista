@@ -13,5 +13,9 @@
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
 
-
+@Marco1908 ➜ /workspaces/lezione-bash-04-marco-evangelista/ambiente (main) $ cp -r documenti/report/ sandbox/
+@Marco1908 ➜ /workspaces/lezione-bash-04-marco-evangelista/ambiente (main) $ cd documenti
+@Marco1908 ➜ /workspaces/lezione-bash-04-marco-evangelista/ambiente/documenti (main) $ mv note.txt appunti.txt
+@Marco1908 ➜ /workspaces/lezione-bash-04-marco-evangelista/ambiente/documenti (main) $ ls
+appunti.txt  lettere  report
 
