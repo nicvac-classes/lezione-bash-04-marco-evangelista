@@ -14,5 +14,11 @@
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
 
-
+@Marco1908 ➜ /workspaces/lezione-bash-04-marco-evangelista/ambiente/log (main) $ grep "login_fallito" accessi.log
+2024-03-01 08:10:30 mario.rossi login_fallito 192.168.1.100
+2024-03-01 08:10:31 mario.rossi login_fallito 192.168.1.100
+2024-03-01 08:35:00 guest login_fallito 192.168.1.50
+2024-03-01 09:30:00 guest login_fallito 192.168.1.50
+@Marco1908 ➜ /workspaces/lezione-bash-04-marco-evangelista/ambiente/log (main) $ grep -c "login_ok" accessi.log
+4
 
