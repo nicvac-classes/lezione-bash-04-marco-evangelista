@@ -20,5 +20,14 @@
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
 
-
+@Marco1908 ➜ /workspaces/lezione-bash-04-marco-evangelista/ambiente/sandbox (main) $ mkdir -p scuola {classi,docenti}{terza,quarta}
+@Marco1908 ➜ /workspaces/lezione-bash-04-marco-evangelista/ambiente/sandbox (main) $ tree
+.
+├── classiquarta
+├── classiterza
+├── dati_privati.txt
+├── docentiquarta
+├── docentiterza
+├── script_test.sh
+└── scuola
 
