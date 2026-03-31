@@ -14,5 +14,12 @@
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
 
-
-
+@Marco1908 ➜ /workspaces/lezione-bash-04-marco-evangelista (main) $ cd ambiente/sandbox
+@Marco1908 ➜ /workspaces/lezione-bash-04-marco-evangelista/ambiente/sandbox (main) $ ls -l dati_privati.txt
+-rw------- 1 codespace codespace 64 Mar 31 07:14 dati_privati.txt
+@Marco1908 ➜ /workspaces/lezione-bash-04-marco-evangelista/ambiente/sandbox (main) $ chmod g+r dati_privati.txt
+@Marco1908 ➜ /workspaces/lezione-bash-04-marco-evangelista/ambiente/sandbox (main) $ ls -l dati_privati.txt
+-rw-r----- 1 codespace codespace 64 Mar 31 07:14 dati_privati.txt
+@Marco1908 ➜ /workspaces/lezione-bash-04-marco-evangelista/ambiente/sandbox (main) $ chmod o= dati_privati.txt
+@Marco1908 ➜ /workspaces/lezione-bash-04-marco-evangelista/ambiente/sandbox (main) $ ls -l dati_privati.txt
+-rw-r----- 1 codespace codespace 64 Mar 31 07:14 dati_privati.txt
